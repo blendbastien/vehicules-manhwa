@@ -1,0 +1,57 @@
+{
+  "id": "vehicules-manhwa",
+  "title": "Domaine - Manhwa",
+  "description": "Logement et véhicules pour Manhwa Sheet. Registre « Logement » : une page par bien (maison, appartement, logement provisoire, stockage, barque…), pièces qu'on dessine sur un plan par étage et qu'on aménage (lignes tapées ou vrais objets déposés), recherche instantanée, lieu relié à la Carte Stellaire, détenteurs personnage et/ou groupe. Véhicules ultra personnalisables, de la barque au vaisseau spatial : fiche (coque, vitesse, maniabilité, puissance de feu, soute, autonomie, confort, équipage), emplacements par zone remplis avec les pièces du Catalogue, soute partagée, postes d'équipage, journal de bord, droits d'accès.",
+  "version": "2.5.2",
+  "authors": [
+    {
+      "name": "Bastien"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "manhwa-sheet",
+        "type": "system"
+      }
+    ],
+    "recommends": [
+      {
+        "id": "last-horizon-catalogue",
+        "type": "module"
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/vehicules.css"
+  ],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/fr.json"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "vehicle": {},
+      "property": {}
+    }
+  },
+  "socket": true,
+  "url": "https://github.com/blendbastien/vehicules-manhwa",
+  "manifest": "https://github.com/blendbastien/vehicules-manhwa/releases/latest/download/module.json",
+  "download": "https://github.com/blendbastien/vehicules-manhwa/releases/latest/download/vehicules-manhwa.zip"
+}

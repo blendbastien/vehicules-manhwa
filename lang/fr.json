@@ -1,0 +1,8 @@
+{
+  "TYPES": {
+    "Actor": {
+      "vehicules-manhwa.vehicle": "Véhicule",
+      "vehicules-manhwa.property": "Bien (logement)"
+    }
+  }
+}
